@@ -5,6 +5,20 @@
 </head>
 <body>
   <%= render partial: 'layouts/menu' %>
-  <h1>Inicio a portafolio</h1>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col" style="padding: 0;">
+        <%= image_tag "banner.jpg", id:'banner', alt: "Programando"%>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid pt-5">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center">Bievenido a mi portafolio</h1>
+        <p class="text-center mx-5 pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum est quis quam placerat, ac consequat tellus lacinia. Quisque sit amet aliquam leo. Vivamus a metus sagittis, maximus odio ut, porta enim. Phasellus pharetra nulla a risus pellentesque, non sollicitudin ipsum tempus. Nam tristique elementum quam id iaculis. Etiam scelerisque felis eu tortor consectetur, non ultrices nulla ultricies. Nullam luctus auctor rutrum.</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
