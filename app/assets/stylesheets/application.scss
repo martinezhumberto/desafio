@@ -22,3 +22,15 @@ body{
     width: 100%;
     height: auto;
 }
+
+/* ESTILOS PARA PROYECTOS*/
+.card a{
+    color: #fff;
+    background-color: #141414;
+}
+
+.card a:hover{
+    background-color: transparent;
+    border-color: #141414;
+    color:#141414;
+}
